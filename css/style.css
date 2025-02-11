@@ -40,7 +40,7 @@ nav a:hover, nav a:focus{
 first div in the grid  and place it in the grid. */
 
 .container > :first-child{
-     grid-column: 1 / span 3;
+     grid-column: 1 / span 5;
      background-image: url(../images/header.jpg);
 }
 
@@ -114,7 +114,6 @@ first div in the grid  and place it in the grid. */
 
      .text-block{
           max-height: 250px;
-          overflow: auto;
      }
 
 }
