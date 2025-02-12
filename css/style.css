@@ -40,7 +40,7 @@ nav a:hover, nav a:focus{
 first div in the grid  and place it in the grid. */
 
 .container > :first-child{
-     grid-column: 1 / span 5;
+     grid-column: 1 / -1;
      background-image: url(../images/header.jpg);
 }
 
